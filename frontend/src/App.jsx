@@ -20,7 +20,7 @@ function App() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5001/analyze",
+        "https://ai-resume-analyzer-crtg.onrender.com/analyze",
         formData
       );
 
